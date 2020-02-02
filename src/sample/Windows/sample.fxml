@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <?import javafx.scene.control.Button?>
+        <?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="950.0" prefWidth="1600.0" style="-fx-background-color: turquoise;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<children>
+   <Button fx:id="generateLab" layoutX="149.0" layoutY="21.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="160.0" text="Створити Лабіринт" />
+   <Button fx:id="solveLab" layoutX="591.0" layoutY="21.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="251.0" text="Правило правої руки" />
+   <Button fx:id="generateLab1" layoutX="1086.0" layoutY="21.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="200.0" text="Рекурсивний Бектрекінг" />
+   <Button fx:id="getInformation" layoutX="1414.0" layoutY="172.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="149.0" text="Отримати інформацію" />
+   <Button fx:id="getInformation1" layoutX="1414.0" layoutY="711.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="149.0" text="Отримати інформацію" />
+</children>
+</AnchorPane>
