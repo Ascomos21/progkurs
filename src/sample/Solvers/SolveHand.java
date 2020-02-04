@@ -156,13 +156,13 @@ public class SolveHand {
             }
             System.out.println();
         }
-        System.out.println("Hello world");
+        System.out.println("asdasd");
         System.out.println("======================================");
         System.out.println("=======================================");
 
 
     }
-    public static void outSolv0e(int[][] maze,ArrayList<Point> points) {
+    public static void outSolve(int[][] maze,ArrayList<Point> points) {
         Iterator<Point> iterator = points.iterator();
         for (int i=0;i<points.size();i++){
             System.out.println(maze[points.get(i).y][points.get(i).x]);
